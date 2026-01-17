@@ -1,4 +1,4 @@
-import getHealthStatus from '../../healthStatus.js';
+import getHealthStatus from '../healthStatus.js';
 
 describe('getHealthStatus', () => {
   test('healthy при health > 50', () => {
